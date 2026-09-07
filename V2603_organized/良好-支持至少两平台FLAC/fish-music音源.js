@@ -96,7 +96,7 @@ const handleGetMusicUrl = async (source, musicInfo, quality) => {
 
   const songId = musicInfo.hash ?? musicInfo.songmid
 
-  const request = await httpFetch(`${API_URL}/url/${source}/${songId}/${quality}`, {
+  const request = await httpFetch(`${API_URL}/url/${encodeURIComponent(source)}/${encodeURIComponent(songId)}/${encodeURIComponent(quality)}`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
