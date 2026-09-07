@@ -34,6 +34,8 @@
 
       QQ群聊：704034242
 
+      QQ:3300275727
+
 ### 2、TG群组
 
 [https://t.me/+l-HytnCYcd0wYTFl](https://t.me/+l-HytnCYcd0wYTFl)
